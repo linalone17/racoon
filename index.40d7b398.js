@@ -1,0 +1,1 @@
+const e=window.mainLoaded.listen(),n=window.scriptsLoaded.listen(),d=window.devicesLoaded.listen();!async function(){let i=createElement("div","main"),a=document.getElementById("app"),[t,o,s]=await Promise.all([e,n,d]),[l,p,m,c]=s;i.append(t,o,l),a.appendChild(i),requestAnimationFrame(()=>{p(store[2])&&c.append(m)})}();
